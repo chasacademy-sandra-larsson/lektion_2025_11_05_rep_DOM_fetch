@@ -1,0 +1,35 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+
+}
+
+#channel-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+li {
+    width: 100%;
+    display: flex;
+}
+
+.right {
+    font-size: 32px;
+    width: auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
