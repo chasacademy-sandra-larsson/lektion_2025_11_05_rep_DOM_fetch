@@ -25,7 +25,7 @@ closeBtn.addEventListener("click", function() {
 })
 
 lightbox.addEventListener("click", function(e) {
-    if(e.target == lightbox) {
+    if(e.target === lightbox) {
         lightbox.classList.remove("active");
     }
 })
